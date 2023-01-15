@@ -66,28 +66,31 @@ let first_screen_title = document.getElementById('magic_description');
 let magic_box_second_title = document.getElementById('magic_box_title_02');
 
 
-if(window.innerWidth <= 414){
-    first_screen_title.innerHTML = 'MagicMassage provides relief from head tensions, muscle aches, sleep irregularities and more!';
-    magic_box_second_title.innerHTML = 'Body Massage';
+window.addEventListener('resize',()=> {
+    if(window.innerWidth <= 414){
+        first_screen_title.innerHTML = 'MagicMassage provides relief from head tensions, muscle aches, sleep irregularities and more!';
+        magic_box_second_title.innerHTML = 'Body Massage';
+        
+    //------------------------------------------hide all ul tag -----------------------------------
+        let i = 0
+        while(i < 4){
+            document.querySelectorAll('ul')[i].style.display='none';
+            i++
+        }
+    document.querySelector('#magic_button_text').innerHTML = 'Get The MagicMassage Now'
+    document.querySelector('.wrapper-item-text-01').innerHTML = 'FREE 2-DAY USA SHIPPING'
+    document.querySelector('.wrapper-item-text-02').innerHTML = '100% MONEY-BACK GUARANTEE'
+    document.querySelector('#card-message-01').innerHTML = 'Buy MagicMassage'
+    const changeCardMoneyBackText = document.querySelectorAll('.card-money-back-text')
     
-//------------------------------------------hide all ul tag -----------------------------------
-    let i = 0
-    while(i < 4){
-        document.querySelectorAll('ul')[i].style.display='none';
-        i++
-    }
-document.querySelector('#magic_button_text').innerHTML = 'Get The MagicMassage Now'
-document.querySelector('.wrapper-item-text-01').innerHTML = 'FREE 2-DAY USA SHIPPING'
-document.querySelector('.wrapper-item-text-02').innerHTML = '100% MONEY-BACK GUARANTEE'
-document.querySelector('#card-message-01').innerHTML = 'Buy MagicMassage'
-const changeCardMoneyBackText = document.querySelectorAll('.card-money-back-text')
+    
+    changeCardMoneyBackText.forEach(element => {
+        element.innerHTML = 'Special online price!'
+    });
+    
+    };
+})
 
-
-changeCardMoneyBackText.forEach(element => {
-    element.innerHTML = 'Special online price!'
-});
-
-};
 
 
 
