@@ -1,0 +1,764 @@
+/* first screen */
+
+@media screen and (max-width: 414px) {
+    .first_screen_container{
+      width: 415px;
+      height: 687px;
+      left: 0px;
+      top: 170px;
+      background: #FBFBFB;
+    }
+    .first_screen_title{
+      width: 213px;
+      height: 121px;
+      left: 17px;
+      top: 28px;
+    }
+  #fs_t_one{
+    font-size: 26px;
+    line-height: 30px;
+  }
+  
+  #fs_t_two{
+    line-height:30px;
+    font-size: 26px;
+  }
+  #magic_stroke{
+    width: 51.88px;
+    height: 75.43px;
+    left: 126px;
+    top: 96px;
+    transform: matrix(0.28, -0.96, -0.96, -0.28, 0, 0);
+  
+  }
+  #magic_xstroke{
+    width: 97px;
+    height: 6px;
+    left: 15px;
+    top: 158px;
+  }
+  #magic_description{
+    width: 378px;
+    height: 67px;
+    left: 26px;
+    top: 177px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+  #product-image{
+    width: 174px;
+    height: 107px;
+    left: 227px;
+    top: 51px;
+  }
+  
+  #magic_box{
+    width: 414px;
+    left: 0;
+    height: 68px;
+    background-color: inherit;
+    border: none;
+  }
+  #magic_box_image_01{
+    width: 35.17px;
+    height: 35.22px;
+    left: 42.05px;
+    /* top: 61px; */
+  }
+  #magic_box_image_02{
+    width: 35.17px;
+    height: 35.22px;
+    left: 144.78px;
+    /* top: 61px; */
+  }
+  #magic_box_image_03{
+    width: 35.17px;
+    height: 35.22px;
+    left: 249px;
+    /* top: 61px; */
+  }
+  #magic_box_image_04{
+    width: 35.17px;
+    height: 35.22px;
+    left: 346px;
+    /* top: 61px; */
+  }
+  #first-line, #second-line, #third-line{
+     display: none;
+   }
+   .magic_box_title{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    height: 30px;
+  }
+  
+  #magic_box_title_01{
+    left: 0;
+    top: 65px;
+  }
+  #magic_box_title_02{
+    left: 94px;
+    top: 65px;
+  }
+  #magic_box_title_03{
+    left: 215px;
+    top: 65px;
+  }
+  #magic_box_title_04{
+    left: 319px;
+    top: 65px;
+  }
+  .magic_button{
+    position: absolute;
+    width: 377px;
+    left: 18px;
+    top: 348px;
+  }
+  
+  #magic_button_text{
+    width: 233px;
+    height: 27px;
+    left: 72px;
+    top: 19px;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 600;
+  }
+  .magic_pop{
+    width: 228px;
+    top: 523px;
+    left: 176px;
+    box-sizing: border-box;
+    left: 93px;
+    top: 427px;
+  }
+  #magic_pop_text{
+    width: 172px;
+    font-size: 13px;
+    text-align: center;
+  }
+  .random-comment-container{
+    width: 377px;
+    left: 18px;
+    top: 477px;
+  }
+  #random-comment-status-icon{
+    left: 235.58px;
+  }
+  #random-comment-status{
+    left: 257px;
+    line-height: 15px;
+  }
+  .shadow-hide{
+    display: inline;
+   }
+   #shadow-01{
+     position: absolute;
+     width: 119px;
+     height: 17px;
+     left: 212px;
+     top: 144px;
+   }
+   #shadow-02{
+    position: absolute;
+    width: 154px;
+    height: 17px;
+    left: 227px;
+    top: 162px;
+   }
+  }
+/* first screen */
+
+/* second screen */
+
+@media screen and (max-width: 414px) {
+    .second-screen{
+        position: absolute;
+        width: 415px;
+        height: 1655px;
+        box-sizing: content-box;
+        top: 857px;
+    }
+    #second-screen-title{
+        width: 381px;
+        height: 79px;
+        font-size: 30px;
+        line-height: 39px;
+        top:19px;
+        left:16px;
+        text-align: center;
+    }
+    #second-screen-title-02{
+        width: 381px;
+        height: 79px;
+        font-size: 30px;
+        line-height: 39px;
+        top:59px;
+        left:16px;
+        text-align: center;
+    }
+
+    #title-02{
+        font-family: var(--mont);
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 39px;
+        left: 25px;
+        width: 370px;
+    }
+    /* .card{
+        width: 378px;
+        height: 468px;
+    } */
+    #card-02{
+        background: #F6F8FC;
+        left:18px;
+        top:168px;
+        opacity: 1;
+        width: 378px;
+        height: 468px;
+    }
+    #card-03{
+        background: #F6F8FC;
+        left:18px;
+        top:709px;
+        opacity: 0.8;
+        width: 378px;
+        height: 455px;
+    }
+    #card-01{
+        background: #F6F8FC;
+        left:18px;
+        top:1205px;
+        opacity: 0.7;
+        width: 378px;
+        height: 387px;
+        opacity: 0.8;
+    }  
+
+    .card-image-container{
+        width: 271.36px;
+        height: 102px;
+        /* background: #E65050;
+        opacity: 0; */
+    }
+    #image-container-02{
+        left: 53px;
+        bottom: 393px;
+    }  
+    #image-container-03{
+        left: 73.04px;
+        bottom: 388.77px;
+    }  
+    #image-container-01{
+        left: 48px;
+        bottom: 257px;
+    }
+
+    #card-image-03{
+        position: absolute;
+        width: 241.53px;
+        height: 99.23px;
+        top:0;
+        left:14.04px;
+    }
+    #card-image-02{
+        position: absolute;
+        width: 207.85px;
+        height: 96.23px;
+        top: 2.89px;
+        left:31.75px;
+    }
+    #card-status-01{
+        top: 93px;
+        left: 131px;
+    }
+    #card-status-02{
+        top: 77px;
+        left: 146px;
+    }  
+    #card-arrow-01{
+        position: absolute;
+        width: 50.19px;
+        height: 66.82px;
+        top:30.18px;
+        left: 252.86px;
+        transform: rotate(-25deg);
+    }
+    #card-arrow-02{
+        position: absolute;
+        width: 50.19px;
+        height: 66.82px;
+        top: 45px;
+        left: 258px;
+        
+    }   
+    .card-message{
+        font-family: 'Gilroy';
+        font-style: normal;
+        /* font-weight: 600; */
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .card-message-span{
+        color: var(--btn-color);
+        font-weight: bold;
+    }
+    #card-message-01{
+        left: 90px;
+        top: 160px;
+        /* width: 216px; */
+        height: 29px;
+    }
+
+    #card-message-02{
+        left: 90px;
+        top: 132px;
+        width: 198px;
+        height: 30px;
+    }
+    #card-message-03{
+        left: 90px;
+        top: 116px;
+        width: 201px;
+        height: 30px;
+
+    }
+    .card-message-span{
+        color: var(--btn-color);
+        font-weight: 800;
+    }
+    #card-stroke-01{
+        width: 139px;
+        left: 176px;
+        top: 163px;
+    }
+    #card-stroke-02{
+        width: 139px;
+        left: 158px;
+        top: 147px;
+    }
+    .card-price{
+        
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 31px;
+      
+    }
+    #card-price-01{
+        top:206px;
+        left:154px;
+        width: auto;
+    }
+    #card-price-02{
+        top: 0;
+        left: 0;
+        width: 83px;
+    }
+    #card-price-03{
+        top: 0;
+        left: 0;
+        width: 88px;
+        height: 31px;
+    }
+    #card-prices-01{
+        width: auto;
+        height: 31px;
+        top: 188px;
+        left: 99px;
+    }
+    #card-prices-02{
+        position: absolute;
+        width: auto;
+        height: 31px;
+        top:172px;
+        left: 93px;
+    }
+    .card-old-price{
+        height: 31px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 31px;
+        margin: 0;
+        top:0;
+        left: 147px;
+    }
+    #card-old-price-02{
+        left: 90px;
+        width: 124px;
+        
+    }
+    #card-old-price-01{
+        left: 91px;
+        
+    }
+    #price-line-01{
+        width: 100px;
+        height: 2px;
+        background-color: #647AA0;
+        transform: rotate(180deg);
+        top: 15px;
+        left: 100px;
+    }
+    #price-line-02{
+        width: 100px;
+        height: 2px;
+        top: 15px;
+        left: 103px;
+    }
+    #card-shipping-01, #card-shipping-02, #card-shipping-03{
+        display: none;
+    }
+    .card-fee{
+        height: 15px;
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .card-fee-span{
+        font-family: 'Mont';
+        font-weight: 900;
+        font-size: 11px;
+        line-height: 14.51px
+    }
+    .card-fee-span-02{
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 14.63px;
+        color:#000000;
+    }
+    #card-fee-01{
+        top: 247px;
+        left: 28px;
+        width: 236px;
+    }
+    #card-fee-02{
+        top: 235px;
+        left: 37px;
+        width: 238px;
+    }
+    #card-fee-03{
+        top: 219px;
+        left: 37px;
+        width: 238px;
+    }
+
+    #card-afterplay-01{
+        top: 247px;
+        left: 279px;
+    }
+    #card-afterplay-02{
+        top: 235px;
+        left: 288px;
+    }
+    #card-afterplay-03{
+        top: 219px;
+        left: 288px;
+    }
+    .card-refund-container{
+        width: 342px;
+        height: 77px;
+        left: 19px;
+    }
+    #card-refund-container-01{
+        top: 274px;
+    }
+    #card-refund-container-02{
+        top: 258px;
+    }
+    
+    .card-save{
+        width: 180.2px;
+        height: 36px;
+    
+        top: -2px;
+        left: -1px;
+        z-index: 1;
+    }
+    .card-save-text{
+        height: 15px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        top: 11px;
+        left: 30px;
+    }
+    #card-v-icon-02,#card-v-icon-03{
+        display: none;
+    }
+ 
+    .card-money-back-02{
+        width: 280.33px;
+        height: 36px;
+        left: 61.67px;
+        top: -2px;
+    }
+    .card-money-back-text{
+        width: 117px;
+        left: 138.33px;
+        top: 11px;
+    }
+    #card-money-back-text-01{
+        left: 138.33px;
+        top: 11px;
+    }
+    #card-money-back-text-02{
+        left: 138.33px;
+        top: 11px;
+    }
+    .card-order-count{
+        width: 174px;
+        height: 15px;
+        font-family: "Gilroy";
+        font-size: 12px;
+        line-height: 15px;
+        top: 49px;
+        left: 109px;
+        
+    }
+    #card-clock-icon{
+        width: 18px;
+        height: 19px;
+        left: 84px;
+        top: 47px;
+    }
+    #card-clock-icon-hidden{
+      display: inline;
+      position: absolute;
+      width: 18px;
+      height: 19px;
+      left: 84px;
+      top: 47px;
+    }
+    .card-buttons-sb{
+        width: 353px;
+        height: 48px;
+        left: 12px;
+    }
+    #card-buttons-sb-01{
+     top: 285px;
+    }
+    #card-buttons-sb-02{
+      top: 372px;
+    }
+    #card-buttons-sb-03{
+      top: 356px;
+    }
+    .card-button-text {
+        width: 160.27px;;
+        height: 20.21px;
+        top: 12.63px;
+        left: 96.37px;
+    }
+ 
+    #card-payments-01{
+      left: 39px;
+      top:349px
+    }
+    #card-payments-02{
+      left: 40px;
+      top: 434px;
+    }
+    #card-payments-03{
+      left: 42px;
+      top:420px
+    }
+}
+/* second screen */
+
+/* third-screen */
+@media screen and (max-width: 414px) {
+
+    #third-screen{
+        width: 414px;
+        height: 717px;
+        left: 0px;
+        top: 2512px;
+    }
+    #customer-screen-title{
+        width: 384px;
+        height: 81px;
+        left: 16px;
+        top: 28px;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+    #customer-screen-stroke{
+        width: 165px;
+        left: 125px;
+        top: 113px;
+    }
+    #customer-total-review{
+        left: 18px;
+        top: 180px;
+    }
+    .stars-total-container{
+        left: 18px;
+        top: 157px;
+    }
+    #customer-review-button{
+        height: 40px;
+        left: 264px;
+        top: 159px;
+    }
+     #customer-review-button-text{
+        top: 10px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: var(--wrapper-color);
+    }
+
+    .review-card-container{
+        height: 434px;
+        background: #FFFFFF;
+        top: 216px;
+     }
+     
+     #review-card-container-01{
+         left: 18px;
+     }
+     #review-card-container-02{
+         left: 316px;
+     }
+     #review-card-container-03{
+        left: 616px;
+     }
+    
+    .user-image{
+        height: 149px;
+    }
+    .user-verified-icon{
+        width: 17.5px;
+        height: 17.5px;
+        left: 126.75px;
+        top: 180.75px;
+    }
+    .user-comment{
+        height: 187px;
+        left: 17px;
+        top: 237px;
+    }
+    #scroll-dots{
+        display: block;
+        position: absolute;
+        width: 62px;
+        height: 14px;
+        left: 176px;
+        top: 672px;
+    }
+    .dots{
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        margin: 0;
+        border-radius: 50%;
+        cursor: pointer;
+        background: #CBCED6;
+    }
+    #dot-01{
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        left: 0;
+        top: 0;
+    }
+    #dot-02{
+        left: 24px;
+    }
+    #dot-03{
+        left: 48px;
+    }
+    .dot-active{
+        background: #197AFF;
+    }
+    /* .dot-default{
+        background: #CBCED6;
+    } */
+    #review-card-container-04{
+        display: none;
+    }
+ 
+}
+/* third-screen */
+
+/* wrapper */
+
+@media screen and (max-width: 414px) {
+    .first-screen-wrapper{
+        width: 414px;
+        height: 101px;
+        left: 0px;
+        top: 756px;
+    }
+    
+.wrapper-item-01{
+    position: absolute;
+    width: 85px;
+    height: 79px;
+    left: 79px;
+    top: 11px;
+}
+#w-image-circle{
+    width: 36px;
+    height: 36px;
+    left: 25px;
+    top: 0;
+    border-radius: 50%;
+}
+#w-image-01{
+    width: 21.6px;
+    height: 18px;
+    left: 8px;
+    top: 8px;
+}
+.wrapper-item-text{
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 0;
+    left: 0;
+    top: 43px;
+}
+.wrapper-item-text-01{
+    position: absolute;
+    width: 85px;
+    height: 79px;
+}
+.wrapper-item-03{
+    display: none;
+}
+
+.wrapper-item-02{
+    width: 150px;
+    height: 79px;
+    left: 216px;
+    top: 11px;
+}
+#w-image-02{
+    width: 36px;
+    height: 36px;
+    left: 57px;
+    top: 0;
+}
+.wrapper-item-text-02{
+    width: 150px;
+    height: 36px;
+    top:43px
+}
+     
+}
+/* wrapper */

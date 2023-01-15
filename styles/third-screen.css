@@ -1,0 +1,224 @@
+#third-screen{
+    position: absolute;
+    width: 1440px;
+    height: 722px;
+    left: 0px;
+    top: 1577px;
+    background: #F6F8FC;
+}
+#customer-screen-title{
+  margin: 0;
+  position: absolute;
+  /* width: 682px; */
+  height: 50px;
+  left: 371px;
+  top: 52px;
+  font-family: var(--mont);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 49px;
+  color: var(--wrapper-color);
+}
+#customer-screen-title-span{
+  font-weight: 900;
+  color: var(--btn-color);
+}
+#customer-screen-stroke{
+    position: absolute;
+    width: 226px;
+    height: 6px;
+    left: 842px;
+    top: 98px;
+}
+
+.stars-total-container{
+    position: absolute;
+    width: 106px;
+    height: 17.37px;
+    left: 102px;
+    top: 152px;
+}
+.stars-total{
+    position: absolute;
+    width: 17.37px;
+    height: 17.37px;
+    top: 0;
+    /* background: #F6C644; */
+}
+#customers-total-star-01{
+   left: 0;
+}
+#customers-total-star-02{
+   left: 22.16px;
+}
+#customers-total-star-03{
+   left: 44.32px;
+}
+#customers-total-star-04{
+   left: 66.47px; 
+}
+#customers-total-star-05{
+   left: 88.66px;
+}
+#customer-total-review{
+   position: absolute;
+   width: 130px;
+   height: 19px;
+   left: 215px;
+   top: 1733px;
+   font-family: var(--mont);
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 19px;
+   text-align: center;
+   color: var(--wrapper-color);
+   top: 153px;
+   left: 215px;
+   margin: 0;
+}
+#customer-review-button{
+   box-sizing: border-box;
+   position: absolute;
+   width: 133px;
+   height: 30px;
+   left: 1196px;
+   top: 146px;
+   background: #F6F8FC;
+   border: 1px solid #213786;
+   border-radius: 5px;
+}
+#customer-review-button-text{
+   position: absolute;
+   width: 92px;
+   height: 17px;
+   left: 21px;
+   top: 7px;
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 17px;
+   text-align: center;
+   color: #3A3075;
+   margin: 0;
+}
+
+.review-card-container{
+   /* box-sizing: border-box; */
+   position: absolute;
+   width: 285px;
+   height: 472px;
+   background: #FFFFFF;
+   border: 1px solid #E9E9E9;
+   border-radius: 10px;
+   top: 198px;
+   transition-timing-function: cubic-bezier(0.2, 0, 0.8, 1);
+transition-duration: 0.75s;
+}
+
+#review-card-container-01{
+    left: 102px;
+}
+#review-card-container-02{
+    left: 417px;
+}
+#review-card-container-03{
+    left: 732px;
+}
+#review-card-container-04{
+    left: 1047px;
+}
+
+.user-image{
+    position: absolute;
+    width: 285px;
+    height: 169px;
+    left: 0;
+    top: 0;
+    border-radius: 10px 10px 0px 0px;
+}
+/* #user-image-01{
+    background: url('../assets/pictures/first-customer.png');
+}
+#user-image-02{
+    background: url('../assets/pictures/second-customer.png');
+}
+#user-image-03{
+    background: url('../assets/pictures/third-customer.png');
+}
+#user-image-04{
+    background: url('../assets/pictures/forth-customer.png');
+} */
+.user-name{
+    position: absolute;
+    width: 67px;
+    height: 19px;
+    left: 13px;
+    top: 179px;
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--wrapper-color);
+    margin: 0;
+}
+.user-star-container{
+    position: absolute;
+    width: 85.45px;
+    height: 14px;
+    left: 10px;
+    top: 204px;
+}
+.user-stars-total{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 0;
+    top: 0;
+}
+
+.user-verified-icon{
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 125px;
+    top: 179px;
+}
+.user-verified-text{
+    position: absolute;
+    width: 87px;
+    height: 15px;
+    left: 153px;
+    top: 183px;
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    color: #89C25F;
+    margin: 0;
+}
+
+.user-comment{
+    position: absolute;
+    width: 250px;
+    height: 226px;
+    left: 17px;
+    top: 228px;
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: #262626;
+    margin: 0;
+}
+#scroll-dots{
+    display: none;
+}
+
+

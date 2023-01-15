@@ -1,0 +1,584 @@
+.second-screen{
+    position: absolute;
+    width: 1440px;
+    height: 770px;
+    background: linear-gradient(118.72deg, #AECCFF -18.14%, #197AFF 165.34%);
+    top:835px;
+    box-sizing: border-box;
+}
+
+#second-screen-title{
+    position: absolute;
+    /* width: 425px; */
+    height: 49px;
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 49px;
+    color: var(--wrapper-color);
+    top:29px;
+    left:507px;
+    margin: 0;
+}
+#second-screen-title-02{
+    position: absolute;
+    width: 360px;
+    height: 58px;
+    top:78px;
+    left:540px;
+    margin: 0;
+}
+
+#second-screen-line{
+    position: absolute;
+    width: 303px;
+    height: 6px;
+    top:52px;
+    left:35px
+}
+
+#title-02{
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 37px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.card{
+    box-sizing: border-box;
+    position: absolute;
+    width: 368px;
+    height: 530px;
+    border: 1.5px solid #197AFF;
+    border-radius: 18px;
+    top:186px;
+}
+#card-01{
+    background: #F6F8FC;
+    left:119px;
+    opacity: 0.7;
+}
+#card-02{
+    background: linear-gradient(180deg, #FFFFFF 0%, #D7E6FF 100%);
+    left:534px;
+}
+#card-03{
+    background: #F6F8FC;
+    left:952px;
+    opacity: 0.7;
+}
+
+.card-image-container{
+    position: absolute;
+    width: 282px;
+    height: 106px;
+    /* background: #E65050;
+    opacity: 0; */
+}
+#image-container-01{
+    left: 41px;
+    bottom: 443px;
+}
+#image-container-02{
+    left: 45px;
+    bottom: 443px;
+}
+#image-container-03{
+    left: 43px;
+    bottom: 443px;
+}
+
+#card-image-01{
+    position: absolute;
+    width: 133px;
+    height: 100px;
+    top:3px;
+    left:72px;
+}
+#card-image-02{
+    position: absolute;
+    width: 216px;
+    height: 100px;
+    top:3px;
+    left:33px;
+}
+#card-image-03{
+    position: absolute;
+    width: 258px;
+    height: 106px;
+    top: 0;
+    left:15px;
+}
+.card-message{
+    position: absolute;
+    width: 304px;
+    height: 37px;
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    color: var(--wrapper-color);
+    margin: 0;
+}
+.card-message-span{
+    color: var(--btn-color);
+    font-weight: bold;
+}
+#card-message-01{
+    left: 34px;
+    top: 150px;
+}
+#card-message-02{
+    left: 56px;
+    top: 146px;
+}
+#card-message-03{
+    left: 56px;
+    top: 146px;
+}
+#card-stroke-01{
+    position: absolute;
+    width: 139px;
+    left: 172px;
+    top: 183px;
+    height: 4px;
+}
+#card-stroke-02{
+    position: absolute;
+    width: 139px;
+    left: 177px;
+    top: 181px;
+    height: 4px;
+}
+
+.card-status-text{
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+    position: absolute;
+    height: 16px;
+    top: 6px;
+    left: 16px;
+}
+#card-status-01{
+    position: absolute;
+    width: 126px;
+    height: 28px;
+    background: #57AC73;
+    border-radius: 50px;
+    top: 108px;
+    left: 121px;
+}
+
+
+#card-status-02{
+    position: absolute;
+    width: 100px;
+    height: 28px;
+    background: #AC5780;
+    border-radius: 50px;
+    top: 108px;
+    left: 134px;
+}
+#card-arrow-01{
+    position: absolute;
+    width: 47.49px;
+    height: 65.17px;
+    top:66.05px;
+    left: 267.97px;
+}
+#card-arrow-02{
+    position: absolute;
+    width: 47.49px;
+    height: 65.17px;
+    top:61px;
+    left: 274.43px;
+}
+.card-price{
+    position: absolute;
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 43px;
+    text-align: center;
+    color: var(--wrapper-color);
+    width: 124px;
+    height: 43px;
+}
+#card-price-01{
+    top:204px;
+    left:122px;
+}
+#card-price-02{
+    top: 0;
+    left: 0;
+}
+#card-price-03{
+    top: 0;
+    left: 0;
+}
+#card-prices-01{
+    position: absolute;
+    width: 280px;
+    height: 44px;
+    top: 205px;
+    left: 46px;
+}
+#card-prices-02{
+    position: absolute;
+    width: 280px;
+    height: 44px;
+    top:208px;
+    left: 46px;
+}
+
+.card-old-price{
+    position: absolute;
+    width: 124px;
+    height: 43px;
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+    color: #93A2BB;
+    margin: 0;
+    top:0;
+    left: 147px;
+}
+
+#price-line-01{
+    position: absolute;
+    width: 141px;
+    height: 2px;
+    background-color: #647AA0;
+    transform: rotate(180deg);
+    top: 20px;
+    left: 139px;
+}
+#price-line-02{
+    position: absolute;
+    width: 141px;
+    height: 2px;
+    background-color: #647AA0;
+    transform: rotate(180deg);
+    top: 20px;
+    left: 139px;
+}
+.card-shipping{
+    position: absolute;
+    width: 94px;
+    height: 16px;
+    font-family: var(--gilroy);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: var(--wrapper-color);
+}
+#card-shipping-01{
+  margin: 0;
+  top: 248px;
+  left: 138px;
+}
+#card-shipping-02{
+    margin: 0;
+    top: 248px;
+    left: 58px;
+}
+#card-shipping-03{
+    margin: 0;
+    top: 248px;
+    left: 58px;
+}
+.card-icon{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+}
+#card-v-icon-01{
+  top: 292px;
+  left:108px;
+}
+#card-v-icon-02{
+    top: 10px;
+    left:111.31px;
+}
+#card-v-icon-03{
+    top: 10px;
+    left:109.31px;
+}
+
+.card-money-back{
+    position: absolute;
+    height: 15px;
+    font-family: var(--gilroy);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--wrapper-color);
+}
+#card-money-back-01{
+    margin: 0;
+    top: 297px;
+    left: 139px;
+}
+
+.card-fee{
+    position: absolute;
+    /* width: 257px; */
+    height: 16px;
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: var(--wrapper-color);
+    margin: 0;
+}
+.card-fee-span{
+    font-family: 'Mont';
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 15.09px
+}
+.card-fee-span-02{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14.63px;
+    color:#000000;
+}
+#card-fee-01{
+    top: 352px;
+    left: 18px;
+}
+#card-fee-02{
+    top: 275px;
+    left: 18px;
+}
+#card-fee-03{
+    top: 275px;
+    left: 18px;
+}
+
+
+.card-afterplay{
+    position: absolute;
+    width: 77px;
+    height: 17.11px;
+    background: #BCF5E3;
+    border-radius: 40px;
+}
+
+#card-afterplay-01{
+    top: 352px;
+    left: 281px;
+}
+#card-afterplay-02{
+    top: 275px;
+    left: 281px;
+}
+#card-afterplay-03{
+    top: 275px;
+    left: 281px;
+}
+.card-afterplay-icon{
+    position: absolute;
+    width: 50.48px;
+    height: 9.43px;
+    top:3.42px;
+    left:13.69px
+}
+
+.card-refund-container{
+    box-sizing: border-box;
+    position: absolute;
+    width: 331px;
+    height: 83px;
+    border: 1px solid #AECCFF;
+    border-radius: 19px;
+    top: 310px;
+    left: 18px;
+}
+
+.card-save{
+    box-sizing: border-box;
+    position: absolute;
+    width: 159px;
+    height: 43px;
+    background: #BFF5BE;
+    border: 1px solid #99D298;
+    border-radius: 48px;
+    top: -2px;
+    left: -1px;
+    z-index: 1;
+}
+
+.card-money-back-02{
+    box-sizing: border-box;
+    position: absolute;
+    width: 271.31px;
+    height: 43px;
+    background: #F0F6FF;
+    border: 1px solid #AECCFF;
+    border-radius: 80px;
+    left: 58.69px;
+    top: -2px;
+}
+.card-save-text{
+    margin: 0;
+    position: absolute;
+    width: 123.77px;
+    height: 16px;
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--wrapper-color);
+    top:14px;
+    left:22.32px;
+}
+
+.card-order-count{
+    position: absolute;
+    width: 206px;
+    height: 17px;
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17px;
+    color: var(--wrapper-color);
+    top: 54px;
+    left: 81px;
+    margin: 0;
+}
+.card-money-back-text{
+    position: absolute;
+    width: 113px;
+    height: 15px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--wrapper-color);
+    margin: 0;
+}
+#card-money-back-text-01{
+    top:15px;
+    left: 142.31px;
+}
+#card-money-back-text-02{
+    top:15px;
+    left: 140.31px;
+}
+#card-clock-icon{
+    position: absolute;
+    width: 11.35px;
+    height: 17px;
+    left: 60px;
+    top: 53px;
+}
+#card-clock-icon-hidden{
+  display: none;
+}
+
+.card-buttons-sb{
+    position: absolute;
+    width: 331px;
+    height: 53px;
+    background: var(--btn-color);
+    box-shadow: 0px 7px 14px rgba(25, 122, 255, 0.5);
+    border-radius: 60px;
+    top: 416px;
+    left: 18px;
+}
+.card-button-text {
+    position: absolute;
+    width: 163px;
+    height: 24px;
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 15px;
+    left: 81px;
+    margin: 0;
+}
+
+.card-payments{
+    position: absolute;
+    width: 299px;
+    height: 16px;
+    top: 490px;
+    left: 29px;
+}
+#icon-01{
+    position: absolute;
+    width: 22.78px;
+    height: 16px;
+    left: 0px;
+    top: 0px;
+}
+#icon-02{
+    position: absolute;
+    width: 31.14px;
+    height: 12.5px;
+    left: 37.97px;
+    top: 1.75px;
+}
+#icon-03{
+    position: absolute;
+    width: 28.69px;
+    height: 11.12px;
+    left: 84.31px;
+    top: 2.44px;
+}
+#icon-04{
+    position: absolute;
+    width: 25.86px;
+    height: 15px;
+    left: 128.19px;
+    top: 0.5px;
+}
+#icon-05{
+    position: absolute;
+    width: 25.11px;
+    height: 15.36px;
+    left: 169.25px;
+    top: 0.32px;
+}
+#icon-06{
+    position: absolute;
+    width: 46.1px;
+    height: 11.49px;
+    left: 209.56px;
+    top: 2.25px;
+}
+#icon-07{
+    position: absolute;
+    width: 28.15px;
+    height: 8.34px;
+    left: 270.85px;
+    top: 3.83px;
+}
+

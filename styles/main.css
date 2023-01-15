@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Mont';
+    src: url('../assets/fonts/Mont-SemiBold.otf');
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: 'Mont';
+    src: url('../assets/fonts/Mont-Heavy.otf');
+    font-style: normal;
+    font-weight: 900;
+  }
+  @font-face {
+    font-family: 'Mont';
+    src: url('../assets/fonts/Mont-Regular.otf');
+    font-style: normal;
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: 'Mont';
+    src: url('../assets/fonts/Mont-Bold.otf');
+    font-style: normal;
+    font-weight: 800;
+  }
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/fonts/Gilroy-Bold.ttf');
+    font-style: normal;
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/fonts/Gilroy-Light.otf');
+    font-style: normal;
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/fonts/gilroy-semi-bold.ttf');
+    font-style: normal;
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/fonts/Gilroy-ExtraBold.otf');
+    font-style: normal;
+    font-weight: 800;
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/Montserrat-Regular.ttf');
+    font-style: normal;
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/Montserrat-SemiBold.ttf');
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  :root {
+      --btn-color: #197AFF;
+      --wrapper-color: #11346F;
+      --mont: 'Mont';
+      --montserrat: 'Montserrat';
+      --gilroy:'Gilroy'
+    }
+  
+  
+  body,html{
+      margin: 0;
+      padding: 0;
+  };
+
+  p{
+    margin: 0;
+  }
+
+  li{
+    list-style-type: none;
+  }
